@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.profile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="224dp"
+        android:background="@color/dark_blue" />
+
+    <ImageView
+        android:layout_width="411dp"
+        android:layout_height="116dp"
+        android:layout_marginLeft="-412dp"
+        android:layout_marginTop="140dp"
+        android:src="@drawable/arc_3" />
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:src="@drawable/user_2"
+        android:layout_marginLeft="-337dp"
+        android:layout_marginTop="120dp"
+        />
+
+    <TextView
+        android:layout_width="78dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="-166dp"
+        android:layout_marginTop="50dp"
+        android:text="Profile"
+        android:textColor="@color/white"
+        android:textSize="23sp" />
+    <LinearLayout
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/background_oval"
+        android:layout_marginLeft="-220dp"
+        android:layout_marginTop="40dp"/>
+    <ImageView
+        android:id="@+id/Back"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/baseline_arrow_back_24"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="-47dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="Vicky sharma"
+        android:textColor="@color/dark_blue"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="-60dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="sharmavicky13@gmail.com"
+        android:textColor="@color/dark_blue"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="-412dp"
+        android:gravity="center"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="270dp"
+            android:layout_marginLeft="-380dp"
+            android:src="@drawable/btn_1"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="275dp"
+        android:text="Notification"
+        android:textColor="@color/dark_blue"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="22dp"/>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="280dp"
+        android:src="@drawable/arrow"
+        android:layout_marginLeft="119dp"/>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="-321dp"
+        android:src="@drawable/btn_2"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="325dp"
+        android:text="calender"
+        android:textColor="@color/dark_blue"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="22dp"/>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="329dp"
+        android:src="@drawable/arrow"
+        android:layout_marginLeft="119dp"/>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="-322dp"
+        android:src="@drawable/btn_3"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="375dp"
+        android:text="Gallery"
+        android:textColor="@color/dark_blue"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="22dp"/>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="380dp"
+        android:src="@drawable/arrow"
+        android:layout_marginLeft="119dp"/>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="-321dp"
+        android:src="@drawable/btn_4"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="425dp"
+        android:text="My Playlist"
+        android:textColor="@color/dark_blue"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="22dp"/>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="429dp"
+        android:src="@drawable/arrow"
+        android:layout_marginLeft="119dp"/>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="470dp"
+        android:layout_marginLeft="-321dp"
+        android:src="@drawable/btn_5"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="475dp"
+        android:text="Share"
+        android:textColor="@color/dark_blue"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="22dp"/>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="486dp"
+        android:src="@drawable/arrow"
+        android:layout_marginLeft="119dp"/>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginLeft="-322dp"
+        android:src="@drawable/btn_6"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="525dp"
+        android:text="Logout"
+        android:textColor="@color/dark_blue"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="21dp"/>
+
+
+</LinearLayout>

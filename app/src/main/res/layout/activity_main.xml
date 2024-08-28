@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MainActivity"
+    android:background="@color/dark_blue">
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:src="@drawable/women"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <ImageView
+        android:layout_width="415dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="-380dp"
+        android:layout_marginTop="310dp"
+        android:src="@drawable/arc_1"
+        />
+    <View
+        android:layout_width="420dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginLeft="-420dp"
+        android:layout_marginTop="350dp"/>
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="263dp"
+        android:layout_height="114dp"
+        android:layout_marginLeft="-350dp"
+        android:layout_marginTop="340dp"
+        android:text="Welcome to the UILover"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="27dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-300dp"
+        android:layout_marginTop="450dp"
+        android:text="Experience the extraodinaryy as our visionary UI design propels you into a world of endless possibilities where innovation shapes me future"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="italic"/>
+    <Button
+        android:id="@+id/Button1"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="-240dp"
+        android:layout_marginTop="680dp"
+        android:text="Get Started"
+        android:backgroundTint="@color/dark_blue"
+        android:textStyle="bold"
+        android:onClick="openMain2"/>
+
+
+
+</LinearLayout>

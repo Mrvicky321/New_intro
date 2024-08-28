@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".Activity.front_activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="247dp"
+        android:background="@color/dark_blue">
+
+        <ImageView
+            android:layout_width="62dp"
+            android:layout_height="56dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="35dp"
+            android:src="@drawable/user_2" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="55dp"
+            android:text="Hi,Vicky"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="45dp"
+            android:src="@drawable/notion" />
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:text="Find Your Favorits Here!"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="-350dp"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            />
+
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="319dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="-110dp"
+            android:layout_marginTop="190dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/edittest_background"
+            android:ems="10"
+            android:inputType="text"
+            android:drawableStart="@drawable/sey"
+            android:drawableEnd="@drawable/mick"
+            android:padding="16dp"
+            android:hint="   Search..."
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="220dp"
+        android:layout_marginLeft="-411dp"
+        android:layout_marginTop="246dp">
+
+        <ImageView
+            android:id="@+id/Profile"
+            android:layout_width="match_parent"
+            android:layout_height="545dp"
+            android:layout_marginTop="-202dp"
+            android:src="@drawable/vvv" />
+
+        <LinearLayout
+            android:layout_width="73dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="-255dp"
+            android:layout_marginTop="12dp"
+            android:background="#F6F3F3">
+
+            <ImageView
+                android:layout_width="42dp"
+                android:layout_height="38dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="-20dp"
+                android:background="@drawable/background_over2"
+                android:src="@drawable/message" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginLeft="-50dp"
+                android:layout_marginTop="55dp"
+                android:text="Favorites" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="73dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="66dp"
+            android:layout_marginTop="10dp"
+            android:background="#F6F3F3">
+
+            <ImageView
+                android:layout_width="42dp"
+                android:layout_height="38dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="-20dp"
+                android:background="@drawable/background_over2"
+                android:src="@drawable/favorites" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginLeft="-50dp"
+                android:layout_marginTop="55dp"
+                android:text="Favorites" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="-380dp"
+        android:layout_marginTop="260dp"
+        android:background="#F6F3F3">
+
+        <ImageView
+            android:layout_width="42dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="-20dp"
+            android:background="@drawable/background_over2"
+            android:src="@drawable/favorites" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="-50dp"
+            android:layout_marginTop="55dp"
+            android:text="Favorites" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="66dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="-71dp"
+        android:layout_marginTop="369dp"
+        android:text="Trend"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="66dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="369dp"
+        android:layout_marginLeft="208dp"
+        android:text="View All"
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-369dp"
+        android:layout_marginTop="399dp"
+        android:clipToPadding="false"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp" />
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="-410dp"
+        android:layout_marginTop="659dp" >
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="32dp"
+            android:src="@drawable/bottom_btn1"
+            android:layout_marginTop="5dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:layout_marginTop="29dp"
+            android:layout_marginLeft="-28dp"/>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/bottom_btn2"
+            android:layout_marginLeft="62dp"
+            android:layout_marginTop="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wallet"
+            android:layout_marginTop="29dp"
+            android:layout_marginLeft="-28dp"/>
+
+        <ImageView
+            android:id="@+id/Button2"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="102dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/botton" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:layout_marginTop="29dp"
+            android:layout_marginLeft="-28dp"/>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/bottom_btn4"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Setting"
+            android:layout_marginTop="29dp"
+            android:layout_marginLeft="-28dp"/>
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="-238dp"
+            android:layout_marginTop="-4dp"
+            android:background="@drawable/round" />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="45dp"
+            android:src="@drawable/flot"
+            android:layout_marginLeft="-68dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
